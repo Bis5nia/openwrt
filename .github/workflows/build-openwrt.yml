@@ -1,4 +1,3 @@
-# Copyright (C) 2024 Maizil41 https://github.com/maizil41
 # https://github.com/ophub/amlogic-s9xxx-openwrt
 
 name: Build OpenWrt AMLogic
@@ -74,7 +73,7 @@ jobs:
           if [ -d "amlogic-s9xxx-openwrt" ]; then
             rm -rf amlogic-s9xxx-openwrt
           fi
-          git clone --depth 1 https://github.com/Bis5nia/amlogic-s9xxx-openwrt.git
+          git clone --depth 1 https://github.com/ophub/amlogic-s9xxx-openwrt.git
           cd amlogic-s9xxx-openwrt
           mkdir -p openwrt-armvirt
     
@@ -136,7 +135,7 @@ jobs:
           if [ -d "amlogic-s9xxx-openwrt" ]; then
             rm -rf amlogic-s9xxx-openwrt
           fi
-          git clone --depth 1 https://github.com/Bis5nia/amlogic-s9xxx-openwrt.git
+          git clone --depth 1 https://github.com/ophub/amlogic-s9xxx-openwrt.git
           cd amlogic-s9xxx-openwrt
           mkdir -p openwrt-armvirt
     
